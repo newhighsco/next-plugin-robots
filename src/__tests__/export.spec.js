@@ -53,9 +53,9 @@ describe('exportRobots', () => {
     const nextConfig = {
       robots: {
         ...robots,
-        sitemap: 'https://test.com/sitemap.xml',
         allowPaths: ['foo', 'bar'],
-        disallowPaths: ['fizz', 'buzz']
+        disallowPaths: ['fizz', 'buzz'],
+        sitemap: { hostname: 'https://test.com/', filename: 'sitemap.xml' }
       },
       exportPathMap
     }

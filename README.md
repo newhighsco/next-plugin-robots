@@ -31,7 +31,7 @@ module.exports = withRobots({
 |`userAgent*`|`string`|`*`|
 |`allowPaths?`|`array`|-|
 |`disallowPaths?`|`array`|-|
-|`sitemap?`|`string`|-|
 |`filename?`|`string`|`robots.txt`|
+|`sitemap?`|`object`|[See @newhighsco/next-plugin-sitemap options](https://github.com/newhighsco/next-plugin-sitemap#options)|
 
 ## [CHANGELOG](CHANGELOG.md)

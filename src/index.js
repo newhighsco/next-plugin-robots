@@ -1,11 +1,12 @@
 const exportRobots = require('./export')
 
 module.exports = (nextConfig = {}) => {
-  const { robots = {} } = nextConfig
+  const { robots = {}, sitemap = {} } = nextConfig
 
   nextConfig.robots = {
     filename: 'robots.txt',
     userAgent: '*',
+    sitemap,
     ...robots
   }
 
