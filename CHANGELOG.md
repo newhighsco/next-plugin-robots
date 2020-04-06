@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/newhighsco/next-plugin-robots/compare/v1.0.1...v1.1.0) (2020-04-06)
+
+
+### Features
+
+* **sitemap:** uses options from @newhighsco/next-plugin-sitemap ([813bdfe](https://github.com/newhighsco/next-plugin-robots/commit/813bdfe35ed2f8f836ab5fda7fbfadef8d0d0468))
+
 ## [1.0.1](https://github.com/newhighsco/next-plugin-robots/compare/v1.0.0...v1.0.1) (2020-04-06)
 
 
