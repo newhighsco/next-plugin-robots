@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/newhighsco/next-plugin-robots/compare/v1.0.0...v1.0.1) (2020-04-06)
+
+
+### Bug Fixes
+
+* **deps:** removes unused dependencies ([001423f](https://github.com/newhighsco/next-plugin-robots/commit/001423fad4c7f3a93a2f3c07058051e4dea81ed0))
+
 # 1.0.0 (2020-04-06)
 
 
