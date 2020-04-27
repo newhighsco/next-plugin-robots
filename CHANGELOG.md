@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/newhighsco/next-plugin-robots/compare/v1.1.0...v1.1.1) (2020-04-27)
+
+
+### Bug Fixes
+
+* normalizes sitemap hostname ([874a668](https://github.com/newhighsco/next-plugin-robots/commit/874a66824e26ae00f9713e21cedffa0ba31bec65))
+
 # [1.1.0](https://github.com/newhighsco/next-plugin-robots/compare/v1.0.1...v1.1.0) (2020-04-06)
 
 
