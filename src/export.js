@@ -2,6 +2,7 @@
 const { createWriteStream } = require('fs')
 const { join } = require('path')
 const urlJoin = require('url-join')
+const normalizeUrl = require('normalize-url')
 
 module.exports = (nextConfig = {}) => async (...args) => {
   const { robots = {} } = nextConfig
@@ -23,7 +24,9 @@ module.exports = (nextConfig = {}) => async (...args) => {
     disallowPaths.map(path => output.push(`Disallow: ${path}`))
 
     if (sitemap && sitemap.hostname && sitemap.filename) {
-      output.push(`Sitemap: ${urlJoin(sitemap.hostname, sitemap.filename)}`)
+      output.push(
+        `Sitemap: ${urlJoin(normalizeUrl(sitemap.hostname), sitemap.filename)}`
+      )
     }
 
     if (output.length) {

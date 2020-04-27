@@ -55,7 +55,7 @@ describe('exportRobots', () => {
         ...robots,
         allowPaths: ['foo', 'bar'],
         disallowPaths: ['fizz', 'buzz'],
-        sitemap: { hostname: 'https://test.com/', filename: 'sitemap.xml' }
+        sitemap: { hostname: 'test.com/', filename: 'sitemap.xml' }
       },
       exportPathMap
     }
@@ -86,7 +86,7 @@ describe('exportRobots', () => {
       'Disallow: buzz\n'
     ])
     expect(createWriteStream.writeStream.write.mock.calls[5]).toEqual([
-      'Sitemap: https://test.com/sitemap.xml\n'
+      'Sitemap: http://test.com/sitemap.xml\n'
     ])
     expect(nextConfig.exportPathMap).toBeCalledWith(defaultPathMap, {
       ...options,
