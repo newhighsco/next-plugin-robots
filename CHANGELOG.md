@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/newhighsco/next-plugin-robots/compare/v1.1.2...v1.1.3) (2020-07-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency next to v9.5.1 ([f0761bd](https://github.com/newhighsco/next-plugin-robots/commit/f0761bd5c18ece42364fa1f579f8157563176a70))
+
 ## [1.1.2](https://github.com/newhighsco/next-plugin-robots/compare/v1.1.1...v1.1.2) (2020-07-29)
 
 
