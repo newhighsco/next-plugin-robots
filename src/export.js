@@ -38,9 +38,7 @@ module.exports = (nextConfig = {}) => async (...args) => {
     }
   }
 
-  if (typeof nextConfig.exportPathMap === 'function') {
-    return nextConfig.exportPathMap(...args)
-  }
-
-  return defaultPathMap
+  return nextConfig.exportPathMap
+    ? nextConfig.exportPathMap(...args)
+    : defaultPathMap
 }
