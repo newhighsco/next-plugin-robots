@@ -1,3 +1,5 @@
+> **DEPRECATED: No longer supported. Please use [next-sitemap](https://github.com/iamvishnusankar/next-sitemap) instead.**
+
 # next-plugin-robots [![NPM version](https://img.shields.io/npm/v/@newhighsco/next-plugin-robots.svg)](https://www.npmjs.com/package/@newhighsco/next-plugin-robots)
 
 [Next.js](https://nextjs.org/) plugin for generating a robots.txt during `next export`
